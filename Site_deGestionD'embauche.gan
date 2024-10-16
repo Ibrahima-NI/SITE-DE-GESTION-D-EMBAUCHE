@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?><project name="Site de Gestion d'embauche" company="Université" webLink="http://" view-date="2024-10-14" view-index="2" gantt-divider-location="1" resource-divider-location="300" version="3.3.3312" locale="fr_FR">
+    <description><![CDATA[Un site qui permet de faciliter le recrutement des employés ]]></description>
+    <view zooming-state="default:4" id="gantt-chart">
+        <field id="tpd3" name="Nom" width="219" order="0"/>
+        <field id="tpd4" name="Date de début" width="55" order="1"/>
+        <field id="tpd5" name="Date de fin" width="76" order="2"/>
+        <field id="tpd15" name="Notes" width="20" order="3"/>
+        <option id="taskLabelUp" value="name"/>
+        <option id="taskLabelDown" value="resources"/>
+        <option id="taskLabelRight" value="length"/>
+        <option id="filter.completedTasks" value="false"/>
+        <option id="filter.dueTodayTasks" value="false"/>
+        <option id="filter.overdueTasks" value="false"/>
+        <option id="filter.inProgressTodayTasks" value="false"/>
+        <option id="color.recent"><![CDATA[#3333ff #ff3333 #33ffff #ccccff #33ffcc #33ff33]]></option>
+    </view>
+    <view id="resource-table">
+        <field id="0" name="Nom" width="199" order="0"/>
+        <field id="1" name="Rôle par défaut" width="82" order="1"/>
+    </view>
+    <!-- -->
+    <calendars>
+        <day-types>
+            <day-type id="0"/>
+            <day-type id="1"/>
+            <default-week id="1" name="default" sun="1" mon="0" tue="0" wed="0" thu="0" fri="0" sat="1"/>
+            <only-show-weekends value="true"/>
+            <overriden-day-types/>
+            <days/>
+        </day-types>
+    </calendars>
+    <tasks empty-milestones="true">
+        <taskproperties>
+            <taskproperty id="tpd0" name="type" type="default" valuetype="icon"/>
+            <taskproperty id="tpd1" name="priority" type="default" valuetype="icon"/>
+            <taskproperty id="tpd2" name="info" type="default" valuetype="icon"/>
+            <taskproperty id="tpd3" name="name" type="default" valuetype="text"/>
+            <taskproperty id="tpd4" name="begindate" type="default" valuetype="date"/>
+            <taskproperty id="tpd5" name="enddate" type="default" valuetype="date"/>
+            <taskproperty id="tpd6" name="duration" type="default" valuetype="int"/>
+            <taskproperty id="tpd7" name="completion" type="default" valuetype="int"/>
+            <taskproperty id="tpd8" name="coordinator" type="default" valuetype="text"/>
+            <taskproperty id="tpd9" name="predecessorsr" type="default" valuetype="text"/>
+        </taskproperties>
+        <task id="0" uid="6ed71482c4bd42599ac029c166c5448b" name="Choix du projet" color="#33ffcc" meeting="false" start="2024-10-16" duration="5" complete="0" expand="true">
+            <depend id="1" type="2" difference="0" hardness="Strong"/>
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="1" uid="6bdcfb9a75f14c0a825baade77e153ca" name="Analyse de besoin et objectif" color="#33ffcc" meeting="false" start="2024-10-21" duration="4" complete="0" expand="true">
+            <depend id="2" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="2" uid="757ecb592e6349b9bac51d9ecbdb2f14" name="Cahier de charges et reunir des information" color="#33ffcc" meeting="false" start="2024-10-25" duration="3" complete="0" expand="true">
+            <depend id="3" type="2" difference="0" hardness="Strong"/>
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="3" uid="aad95fc3562e47e0b7724fed2352b759" name="Redaction du plan" color="#33ffcc" meeting="false" start="2024-10-28" duration="3" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="14" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="14" uid="dfe0e9419a4a44a99e7ae477e5e558be" name="Planification et estimation des charges" color="#ff3333" meeting="false" start="2024-10-31" duration="6" complete="0" expand="true">
+            <depend id="4" type="2" difference="0" hardness="Strong"/>
+            <depend id="6" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="4" uid="4c204f497e074722a5e1847d48b68cd8" name="Installation des materiels" color="#3333ff" meeting="false" start="2024-11-06" duration="2" complete="0" expand="true">
+            <depend id="5" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="5" uid="a06b13b8664d4676aeed861ac6cc8bc9" name="Develloper le design graphique" color="#3333ff" meeting="false" start="2024-11-08" duration="5" complete="0" expand="true"/>
+        <task id="6" uid="22c258aecde44b44ba94f89885514d5c" name="Création de la base de donnée" color="#3333ff" meeting="false" start="2024-11-06" duration="4" complete="0" expand="true">
+            <depend id="7" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="7" uid="bf85b5ca10c54fc6b1247f3afb335d86" name="Develloper les fonctionnalité d'inscription et de connexion" color="#3333ff" meeting="false" start="2024-11-10" duration="4" complete="0" expand="true">
+            <depend id="8" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="8" uid="de314c3be5134e79a4428110fbf4623b" name="Gerer des profils utilisateur (Candidat,Entreprise)" color="#3333ff" meeting="false" start="2024-11-14" duration="3" complete="0" expand="true">
+            <depend id="9" type="2" difference="0" hardness="Strong"/>
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="9" uid="c4dbf4527a0341d786e5d379d8e0c3fb" name="Integrer un system de gestion des offres" color="#3333ff" meeting="false" start="2024-11-17" duration="4" complete="0" expand="true">
+            <depend id="10" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="10" uid="c576363d7c814406a83e419e1623ff7e" name="Ajouter des fonctionnalité de recherche d'emploi" color="#3333ff" meeting="false" start="2024-11-21" duration="3" complete="0" expand="true">
+            <depend id="11" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="11" uid="a3d22c97ddf4459bb7ee01cadf55f35b" name="Mettre en place des modification par email" color="#3333ff" meeting="false" start="2024-11-24" duration="2" complete="0" expand="true">
+            <depend id="12" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="12" uid="ad9d5bbb811845c6bfa3128df8c3dc87" name="Test de la réalisation du projet" color="#3333ff" meeting="false" start="2024-11-26" duration="2" complete="0" expand="true">
+            <depend id="13" type="2" difference="0" hardness="Strong"/>
+        </task>
+        <task id="13" uid="4c2e042468ea44d5bd2f9fb7f2e4ec68" name="Cloturation" color="#3333ff" meeting="false" start="2024-11-28" duration="2" complete="0" expand="true"/>
+    </tasks>
+    <resources>
+        <resource id="0" name="Tout les membres" function="Default:0" contacts="" phone=""/>
+        <resource id="1" name="Tout les membres" function="Default:0" contacts="" phone=""/>
+        <resource id="3" name="Hawa" function="2" contacts="" phone=""/>
+        <resource id="4" name="Tout les mùembes" function="Default:0" contacts="" phone=""/>
+        <resource id="5" name="Ibrahim" function="Default:1" contacts="" phone=""/>
+        <resource id="6" name="Hawa , ifran" function="2" contacts="" phone=""/>
+        <resource id="7" name="Ibrahim , Hamzeh, Hassan" function="Default:0" contacts="" phone=""/>
+        <resource id="8" name="Hawa , ifran" function="2" contacts="" phone=""/>
+        <resource id="9" name="Hassan , Hamzeh" function="3" contacts="" phone=""/>
+        <resource id="10" name="Hawa , ifran" function="2" contacts="" phone=""/>
+        <resource id="11" name="Hassan" function="4" contacts="" phone=""/>
+        <resource id="12" name="Hamzeh , Hassan" function="3" contacts="" phone=""/>
+        <resource id="13" name="Ibrahim" function="Default:1" contacts="" phone=""/>
+        <resource id="14" name="Tout les membres" function="Default:0" contacts="" phone=""/>
+    </resources>
+    <allocations>
+        <allocation task-id="0" resource-id="0" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="1" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="3" resource-id="1" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="4" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="12" resource-id="5" function="Default:1" responsible="true" load="100.0"/>
+        <allocation task-id="5" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="7" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="9" resource-id="6" function="2" responsible="true" load="100.0"/>
+        <allocation task-id="6" resource-id="7" function="Default:0" responsible="true" load="100.0"/>
+        <allocation task-id="8" resource-id="9" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="2" resource-id="11" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="10" resource-id="11" function="4" responsible="true" load="100.0"/>
+        <allocation task-id="11" resource-id="12" function="3" responsible="true" load="100.0"/>
+        <allocation task-id="14" resource-id="14" function="Default:0" responsible="true" load="100.0"/>
+    </allocations>
+    <vacations/>
+    <previous/>
+    <roles roleset-name="Default"/>
+    <roles>
+        <role id="1" name="Chef du projet"/>
+        <role id="2" name="Developpeurr"/>
+        <role id="3" name="Technicien"/>
+        <role id="4" name="Product owner"/>
+    </roles>
+</project>
