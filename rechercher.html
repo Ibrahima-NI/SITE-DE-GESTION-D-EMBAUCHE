@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="recher.css">
+    <title>Recherche</title>
+</head>
+<body>
+    <!-- Barre de navigation -->
+    <header>
+        <div><img src="LOGO.jpg" alt="logo" class="logo"></div>
+       <nav>
+            <a href="IH.HTML" >Accueil</a>
+            <a href="service.html" >Services</a>
+            <a href="propose.html" >a propose</a>
+            <a href="contact.html" >contact</a>
+
+         </nav>
+         <a href="connexion.html" > <button>CONNEXION</button></a>
+         
+         <a href="rechercher.html" ><button>RECHERCHER</button></a>
+      
+    </header>
+    <main>
+        <!-- Section de recherche -->
+        <section class="search-section">
+          <h1>Recherche d'offres d'emploi</h1>
+          <p>Recherchez parmi des centaines d'offres adaptées à vos compétences et à vos aspirations.</p>
+          <form action="search_results.php" method="get" class="search-form">
+            <div class="form-group">
+              <label for="keywords">Mots-clés :</label>
+              <input type="text" id="keywords" name="keywords" placeholder="Exemple : développeur, RH, designer" required>
+            </div>
+            <div class="form-group">
+              <label for="location">Lieu :</label>
+              <input type="text" id="location" name="location" placeholder="Exemple : djibouti, balbala,pk 12, télétravail">
+            </div>
+            <div class="form-group">
+              <label for="contract">Type de contrat :</label>
+              <select id="contract" name="contract">
+                <option value="">Tous</option>
+                <option value="cdi">CDI</option>
+                <option value="cdd">CDD</option>
+                <option value="stage">Stage</option>
+                <option value="freelance">Freelance</option>
+              </select>
+            </div>
+            <button type="submit">Rechercher</button>
+          </form>
+        </section>
+    
+        <!-- Section des résultats de recherche -->
+        <section class="results-section">
+          <h2>Résultats de recherche</h2>
+          <div class="results">
+            <p>Aucun résultat pour l'instant. Les résultats s'afficheront ici après votre recherche.</p>
+          </div>
+        </section>
+      </main>
+          <!-- Copyright -->
+    <footer>
+        <p> Copyright &copy; 2024  IH_entreprise| all right  réserved</p>
+    </footer>
+
+</body>
+</html>
