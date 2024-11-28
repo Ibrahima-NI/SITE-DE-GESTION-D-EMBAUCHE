@@ -1,0 +1,146 @@
+/* Réinitialisation des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(32, 29, 29);
+}
+
+.logo{
+    height: 50px;;
+    margin-right: 10px;
+    align-self:right;
+    text-align: center;
+}
+
+/* Barre de navigation */
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 9px 10%;
+    background-color:#553202;
+}
+
+header .logo h1 {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none; 
+    transition: all  ease-in;
+    }
+    nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: #333 ;
+        background-color:#ecb008;
+
+    }
+
+
+
+ 
+ Header button {
+    background-color: hsl(49, 87%, 37%);
+    padding: 10px 3%;
+    border-radius: 4px;
+    color:#ffffff;
+    cursor: pointer;
+    
+}
+
+/* Corps global */
+body {	
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #fdfbfb;
+  }
+  
+  /* Conteneur d'arrière-plan */
+  .background-container {
+    background-image: url('image.webp'); /* Chemin de votre image */
+    background-size: cover; /* Ajuste l'image pour couvrir tout l'écran */
+    background-position: center; /* Centre l'image */
+    background-attachment: fixed; /* Fixe l'image pendant le défilement */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  /* Conteneur principal */
+  .contact-container {
+    background: rgba(155, 119, 85, 0.9); /* Fond semi-transparent */
+    padding: 20px;
+    max-width: 600px;
+    width: 90%;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(230, 227, 227, 0.2);
+    text-align: center;
+  }
+  
+  /* Titre */
+  .contact-container h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #0c0505;
+  }
+  
+  /* Formulaire */
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  
+  /* Champs de formulaire */
+  input, textarea, button {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  
+  /* Bouton d'envoi */
+  button {
+    background-color: #553202;
+    color: #fff;
+    font-weight: bold;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #7e6135;
+  }
+  
+  /* Media query pour mobile */
+  @media (max-width: 768px) {
+    .contact-container {
+      padding: 15px;
+    }
+  }
+  /* Pied de page */
+footer {
+    background-color:#553202;
+    color:hsl(0, 0%, 100%);
+    text-align: right;
+
+    padding: 24px 8%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+  
+  
