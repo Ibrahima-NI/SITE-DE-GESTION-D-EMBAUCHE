@@ -1,0 +1,137 @@
+/* Réinitialisation des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(32, 29, 29);
+}
+
+.logo{
+    height: 50px;;
+    margin-right: 10px;
+    align-self:right;
+    text-align: center;
+}
+
+/* Barre de navigation */
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 9px 10%;
+    background-color:#553202;
+}
+
+header .logo h1 {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none; 
+    transition: all  ease-in;
+    }
+    nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: #333 ;
+        background-color:#ecb008;
+
+    }
+
+
+
+ 
+ Header button {
+    background-color: hsl(49, 87%, 37%);
+    padding: 10px 3%;
+    border-radius: 4px;
+    color:#ffffff;
+    cursor: pointer;
+    
+}
+
+
+
+/* Section d'accueil */
+.accueil {
+    position: relative;
+    height: 80vh;
+    display: Flex;
+    align-items:center;
+    justify-content:left;
+    overflow: hidden;
+}
+
+.accueil img.accueil-image {
+    width: 100%;
+    height: 115VH;
+    object-fit:cover;
+    position:absolute;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.accueil .overlay {
+    position: relative;
+    z-index: 2;
+    text-align: center;
+    padding: 20px;
+    border-radius: 20px;
+    max-width: 1000px;
+}
+
+.accueil h2 {
+    color: hsl(44, 95%, 43%);
+    text-align: center;
+    font-size: 1.8rem;
+    margin-bottom: 8px;
+
+    
+}
+
+.accueil p {
+    color: hsl(60, 19%, 6%);
+    text-align: center;
+    font-size: 1.2rem;
+    margin-bottom: 15px;
+}
+
+.accueil button {
+    margin-bottom: 20px;
+    background-color: hsl(49, 87%, 37%);
+    text-align:center;
+    color: rgb(255, 255, 255);
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 20px;
+}
+
+.accueil button:hover {
+    background-color:hsl(49, 87%, 37%);
+    text-align: center;
+}
+
+/* Pied de page */
+footer {
+    background-color:#553202;
+    color:hsl(0, 0%, 100%);
+    text-align: right;
+
+    padding: 24px 8%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
