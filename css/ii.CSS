@@ -1,0 +1,149 @@
+/* Réinitialisation des marges et paddings */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(32, 29, 29);
+}
+
+.logo{
+    height: 50px;;
+    margin-right: 10px;
+    align-self:right;
+    text-align: center;
+}
+
+/* Barre de navigation */
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 9px 10%;
+    background-color:#553202;
+}
+
+header .logo h1 {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+nav a {
+    color: #fff;
+    margin: 0 15px;
+    text-decoration: none; 
+    transition: all  ease-in;
+    }
+    nav a:hover{
+        text-decoration: underline;
+        text-decoration-color: #333 ;
+        background-color:#404069;
+
+    }
+
+
+
+ 
+ Header button {
+    background-color: hsl(49, 87%, 37%);
+    padding: 10px 3%;
+    border-radius: 4px;
+    color:#ffffff;
+    cursor: pointer;
+}  
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    padding: 10px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    color: #fff;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.actions {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.btn-connexion {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.search-bar {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+/* Section Hero */
+.hero {
+    height: 100vh;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: white;
+}
+
+.overlay {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    font-size: 3rem;
+    margin: 0 0 20px;
+}
+
+p {
+    font-size: 1.2rem;
+    margin-bottom: 30px;
+}
+
+.btn-postuler {
+    padding: 15px 30px;
+    background-color: #28a745;
+    color: white;
+    font-size: 1rem;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+}
+

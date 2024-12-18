@@ -1,0 +1,172 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+.logo{
+    height: 50px;;
+    margin-right: 10px;
+    align-self:right;
+    text-align: center;
+}
+
+/* Barre de navigation */
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 9px 10%;
+    background-color:#553202;
+}
+
+header .logo h1 {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+   
+
+transition: all  ease-in;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #333 ;
+    background-color:#ecb008;
+
+}
+
+
+ 
+ Header button {
+    background-color: hsl(49, 87%, 37%);
+    padding: 10px 3%;
+    border-radius: 4px;
+    color:#ffffff;
+    
+}
+
+
+
+   
+
+/* Mise en page de la section "À propos" */
+.about {
+    text-align: center;
+    padding: 2rem;
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.1);
+}
+.about h1{
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+}
+.about p{
+    font-size: 1.1rem ;
+    margin-bottom: 2.2rem;
+    color: #010107;
+    line-height: 1.6;
+}
+
+/* Styles pour les images dans la section "À propos" */
+.about-image {
+    width: 100%;
+    max-width: 500px;
+    height: auto;
+    border-radius: 5px;
+    margin: 1rem 0;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+/* Disposition des sous-sections */
+.mission-vision {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.mission, .vision {
+    flex: 1;
+    background-color: #f9f9fc;
+    padding: 1.7rem;
+    border-radius: 5px;
+}
+.mission h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+
+}
+
+.vision h2{
+    font-size: 1.8rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+
+}
+.values-team {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2rem;
+    margin-bottom: 2rem;
+    text-align: left;
+}
+
+.values, .team {
+    flex: 1;
+    background-color: #f9f9fc;
+    padding: 1.7rem;
+    border-radius: 5px;
+}
+.values h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+}
+
+.values li strong{
+    color: hsl(49, 87%, 37%);
+}
+.team h2{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+
+}
+.team ul{
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+    color: hsl(49, 87%, 37%);
+
+}
+
+
+.values img, .team img {
+    margin-top: 1rem;
+  
+}
+
+/* Pied de page */
+footer {
+    background-color:#553202 ;
+    color:hsl(0, 0%, 100%);
+    text-align: right;
+
+    padding: 24px 8%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
