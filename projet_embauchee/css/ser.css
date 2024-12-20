@@ -1,0 +1,129 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
+
+/* Style général */
+body {
+    font-family: Arial, sans-serif;
+    color: rgb(51, 51, 51);
+}
+
+.logo{
+    height: 50px;;
+    margin-right: 10px;
+    align-self:right;
+    text-align: center;
+}
+/* Barre de navigation */
+header {
+    display: flex;
+    align-items:center;
+    justify-content:space-between;
+    padding: 9px 10%;
+    background-color:#553202;
+}
+
+header .logo h1 {
+    color:rgb(51, 51, 51);
+    font-weight: bold;
+}
+
+nav a {
+    color: #ffffff;
+    margin: 0 15px;
+    text-decoration: none;
+   
+
+transition: all  ease-in;
+}
+nav a:hover{
+    text-decoration: underline;
+    text-decoration-color: #333 ;
+    background-color:#ecb008;
+
+}
+
+
+ 
+ Header button {
+    background-color:  hsl(49, 87%, 37%);
+    padding: 10px 3%;
+    border-radius: 4px;
+    color:#ffffff;
+    
+}
+/* Barre de navigation */
+.navbar {
+    display: flex;
+    justify-content: center;
+    background-color: #333;
+    padding: 1em;
+}
+.navbar a {
+    color: #ffffff;;
+    text-decoration: none;
+    margin: 0 15px;
+}
+.navbar a:hover {
+    text-decoration: underline;
+}
+
+/* Section de Services */
+.services {
+    text-align: center;
+    padding: 70px;
+}
+.services h1 {
+    color:hsl(49, 87%, 37%) ;
+    font-size: 2.2rem;
+}
+.services p {
+    color: #333;
+    font-size: 1.5rem;
+    margin: 20px auto 30px;
+    max-width: 900px;
+}
+.service-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.service {
+    width: 30%;
+    background-color: #ffffff;
+    padding: 20px;
+    margin: 10px;
+    box-shadow: 0 4px 8px #0000001a;
+    transition: transform 0.3s;
+}
+.service:hover {
+    transform: translateY(-10px);
+}
+.service img {
+    width: 99%;
+    height:auto;
+    border-radius: 10px;
+}
+.service h2 {
+    color:hsl(49, 87%, 37%);
+    margin-top: 7px;
+}
+.service p {
+    color:hsl(45, 10%, 15%);
+}
+
+/* Pied de page */
+footer {
+    background-color:#553202;
+    color:hsl(0, 0%, 100%);
+    text-align: right;
+
+    padding: 24px 8%;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
